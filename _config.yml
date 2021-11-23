@@ -1,5 +1,5 @@
 name: "wwwdemo"
-baseurl: ""
+baseurl: "/"
 permalink: pretty
 title: "Hotzenwalder's Hideout"
 description: ""
