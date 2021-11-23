@@ -1,9 +1,14 @@
-baseurl: "/"
+name: "wwwdemo"
+baseurl: ""
 permalink: pretty
-title: "Jekyll Atlantic"
+title: "Hotzenwalder's Hideout"
+description: ""
 collections_dir: collections
 markdown: kramdown
 highlighter: rouge
+favicons: assets/images/logo.png
+includes: "_pages"
+permalink: "/:title/"
 
 sass:
   indentWidth: 4
@@ -21,10 +26,11 @@ logo:
   logo_desktop_width: "36px"
   logo_mobile_height: "36px"
   logo_mobile_width: "36px"
+  
 
 seo:
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
+  meta_twitter_site: "@hotzenwalder"
+  meta_twitter_creator: "@hotzenwalder"
   meta_og_image: "https://www.zerostatic.io/theme/jekyll-atlantic/jekyll-atlantic-screenshot.png"
 
 plugins:
